@@ -41,7 +41,7 @@ h6 {
 
 .intro-message {
     position: relative;
-    padding-top: 20%;
+    padding-top: 12%;
     padding-bottom: 20%;
 }
 
@@ -72,7 +72,7 @@ h6 {
 
     ul.intro-social-buttons > li {
         display: block;
-        margin-bottom: 20px;
+        margin-bottom: 400px;
         padding: 0;
     }
 
