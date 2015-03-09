@@ -1,4 +1,12 @@
-
+<?php
+require('pusher_config.php');
+require('Persistence.php');
+$comment_post_ID = 1;
+$db = new Persistence();
+$comments = $db->get_comments($comment_post_ID);
+$has_comments = (count($comments) > 0);
+?>
+ 
 <!DOCTYPE html>
 <html lang="en">
 
@@ -411,21 +419,21 @@
     <script src="js/app.js"></script>
 <div id="respond">
 
-  <h3>Leave a Review and Contribuite!</h3>
+  <h3>Leave a Comment</h3>
 
   <form action="post_comment.php" method="post" id="commentform">
 
-    <label for="comment_author" class="required">Year & Semester Taken</label>
+    <label for="comment_author" class="required">Your name</label>
     <input type="text" name="comment_author" id="comment_author" value="" tabindex="1" required="required">
 
-    <label for="email" class="required">Undergraduate Year</label>
+    <label for="email" class="required">Your email;</label>
     <input type="email" name="email" id="email" value="" tabindex="2" required="required">
 
-    <label for="comment" class="required">Your Review</label>
+    <label for="comment" class="required">Your message</label>
     <textarea name="comment" id="comment" rows="10" tabindex="4"  required="required"></textarea>
 
      <input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID" />
-    <input name="submit" type="submit" value="Submit !" />
+    <input name="submit" type="submit" value="Submit comment" />
     <input type="hidden" name="comment_post_ID" value="<?php echo($comment_post_ID); ?>" id="comment_post_ID" />
 
   </form>
