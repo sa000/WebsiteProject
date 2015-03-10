@@ -9,8 +9,12 @@ Functionality:
 
 LOG
 
+03/8/15
+-Added buttons to Classes Page
+-Current Status: Main page (Index) loaded, can go to the Classes page, view all departments, no classes yet
+
 03/10/15
--Added drop down menu
+-Added drop down function to buttons in Classes page
 -Current Status: Main page loaded, can go to a class page, which is filled with all classes
 
 Future:
