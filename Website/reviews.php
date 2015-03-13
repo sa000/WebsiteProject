@@ -105,38 +105,7 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 
 
 <a  name="services"></a>
-<div class="container">
-  <div class="row">
-    
-    <h1 class="text-center"><a href="#myModal" role="button" class="btn btn-primary btn-lg" data-toggle="modal">BITCH, LEAVE A REVIEW</a></h1>
-    
-  </div>
-</div>
-<link href="css/reviews.css" rel="stylesheet">
-<script src="js/reviews.js"></script>
 
-<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-        <h3 id="myModalLabel">GIMME A REVIEW/h3>
-      </div>
-      <div class="modal-body">
-        <form class="form-horizontal col-sm-12">
-          <div class="form-group"><label>Professor</label><input class="form-control required" placeholder="Your name" data-placement="top" data-trigger="manual" data-content="Must be at least 3 characters long, and must only contain letters." type="text"></div>
-          <div class="form-group"><label>Subject</label><input class="form-control email" placeholder="Dropdown here" data-placement="top" data-trigger="manual" type="text"></div>
-          <div class="form-group"><label>Course</label><input class="form-control email" placeholder="Dropdown here" data-placement="top" data-trigger="manual"  type="text"></div>
-            <div class="form-group"><label>Review</label><textarea class="form-control" placeholder="Leave your shitty review here" data-placement="top" data-trigger="manual"></textarea></div>
-          <div class="form-group"><button type="submit" class="btn btn-success pull-right">Send It!</button> <p class="help-block pull-left text-danger hide" id="form-error">&nbsp; The form is not valid. </p></div>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
-      </div>
-    </div>
-  </div>
-</div>
 
 
 <!-- Footer -->

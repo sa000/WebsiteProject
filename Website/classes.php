@@ -111,161 +111,6 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 
 <<<<<<< Updated upstream
 -->
-<<<<<<< Updated upstream
-                        <ul class="list-inline intro-social-buttons">
-
-        <div class="bs-example btn-group-justified">
-                
-                <div class="btn-group">
-                    <button type="button" data-toggle="dropdown" class="btn btn-primary btn-lg dropdown-toggle"><i class="icon-large icon-road"></i> <span class="network-name" style="margin-bottom:4px;white-space: normal;">AAS - African American Studies</span> <span class="caret"></span></button>
-                    <ul class="dropdown-menu">
-                        <li><a href="reviews.html">AAS 100: Intro To African American Studies</a></li>
-                        <li><a href="reviews.html">AAS 110: Dynamics of Black Communities</a></li>
-                        <li><a href="reviews.html">AAS 190: Fresh Seminar: African American Studies</a></li>
-                        <li><a href="reviews.html">AAS 205: Intro To Ethnomusicology</a></li>
-                        <li><a href="reviews.html">AAS 247: Racial & Ethnic Relations</a></li>
-                        <li><a href="reviews.html">AAS 250: African American Images in Media</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">i<3poop</a></li>
-                    </ul>
-                </div>
-
-                <div class="btn-group">
-                    <button type="button" data-toggle="dropdown" class="btn btn-primary btn-lg dropdown-toggle"><i class="icon-large icon-brightness-increase" role="group"></i> <span class="network-name" style="margin-bottom:4px;white-space: normal;">AFS - African Studies</span> <span class="caret"></span></button>
-                    <ul class="dropdown-menu">
-                        <li><a href="reviews.html">AFS 110: African Language Studies I</a></li>
-                        <li><a href="reviews.html">AFS 150: World Cultures</a></li>
-                        <li><a href="reviews.html">AFS 190: Fresh Seminar: African Studies</a></li>
-                        <li><a href="reviews.html">AFS 221: The Making Of Modern Africa</a></li>
-                        <li><a href="reviews.html">AFS 263: Intro to African Studies</a></li>
-                        <li><a href="reviews.html">AFS 270: Topic Seminar</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                    </ul>
-                </div>
-
-                <div class="btn-group">
-                    <button type="button" data-toggle="dropdown" class="btn btn-primary btn-lg dropdown-toggle"><i class="icon-large icon-home" role="group"></i> <span class="network-name" style="margin-bottom:4px;white-space: normal;">AMST - American Studies</span> <span class="caret"></span></button>
-                    <ul class="dropdown-menu">
-                        <li><a href="reviews.html">AMST 112: American Identities</a></li>
-                        <li><a href="reviews.html">AMST 190: Freshman Seminar: American Studies</a></li>
-                        <li><a href="reviews.html">AMST 201: Intro to American Studies</a></li>
-                        <li><a href="reviews.html">AMST 202: American Publics</a></li>
-                        <li><a href="reviews.html">AMST 212: American Identities</a></li>
-                        <li><a href="reviews.html">AMST 275: Black Images In The Media</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                    </ul>
-                </div>
-        </div>
-
-        <div class="bs-example btn-group-justified">
-                
-                <div class="btn-group">
-                    <button type="button" data-toggle="dropdown" class="btn btn-primary btn-lg dropdown-toggle"><i class="icon-large icon-boat"></i> <span class="network-name" style="margin-bottom:4px;white-space: normal;">ANCMED - Ancient Mediterranean Studies</span> <span class="caret"></span></button>
-                    <ul class="dropdown-menu">
-                        <li><a target="_blank" href="reviews.html">ANCMED 101: Intro to Ancient Med Societies</a></li>
-                        <li><a target="_blank" href="reviews.html">ANCMED 190: Freshman Seminar</a></li>
-                        <li><a target="_blank" href="reviews.html">ANCMED 201R: Mediterranean Archaeology</a></li>
-                        <li><a target="_blank" href="reviews.html">ANCMED 202R: Literature & Traditions</a></li>
-                        <li><a target="_blank" href="reviews.html">ANCMED 495A: Honors Independent Writing</a></li>
-                        <li><a target="_blank" href="reviews.html">ANCMED 495BW: Honors Independent Writing</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                    </ul>
-                </div>
-
-                <div class="btn-group">
-                    <button type="button" data-toggle="dropdown" class="btn btn-primary btn-lg dropdown-toggle"><i class="icon-large icon-conversation"></i> <span class="network-name" style="margin-bottom:4px;white-space: normal;">ANT - Anthropology</span> <span class="caret"></span></button>
-                    <ul class="dropdown-menu">
-                        <li><a target="_blank" href="reviews.html">ANT 101: Introduction to Anthropology</a></li>
-                        <li><a target="_blank" href="reviews.html">ANT 140: Evolutionary Anthropology</a></li>
-                        <li><a target="_blank" href="reviews.html">ANT 185: Anthropology: Special Topics</a></li>
-                        <li><a target="_blank" href="reviews.html">ANT 190: Freshman Seminar: Anthropology</a></li>
-                        <li><a target="_blank" href="reviews.html">ANT 200: Foundations of Behavior</a></li>
-                        <li><a target="_blank" href="reviews.html">ANT 201: Concepts & Meth in Biol Anthropology</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                    </ul>
-                </div>
-
-                <div class="btn-group">
-                    <button type="button" data-toggle="dropdown" class="btn btn-primary btn-lg dropdown-toggle"><i class="icon-large icon-globe"></i> <span class="network-name" style="margin-bottom:4px;white-space: normal;">ARAB - Arabic</span> <span class="caret"></span></button>
-                    <ul class="dropdown-menu">
-                        <li><a target="_blank" href="reviews.html">ARAB 101: Elem Arabic I</a></li>
-                        <li><a target="_blank" href="reviews.html">ARAB 102: Elem Arabic II</a></li>
-                        <li><a target="_blank" href="reviews.html">ARAB 201: Intermediate Arabic I</a></li>
-                        <li><a target="_blank" href="reviews.html">ARAB 202: Intermediate Arabic II</a></li>
-                        <li><a target="_blank" href="reviews.html">ARAB 301: Advanced Arabic I</a></li>
-                        <li><a target="_blank" href="reviews.html">ARAB 302: Advanced Arabic II</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                    </ul>
-                </div>
-        </div>
-
-        <div class="bs-example btn-group-justified">
-                
-                <div class="btn-group">
-                    <button type="button" data-toggle="dropdown" class="btn btn-primary btn-lg dropdown-toggle"><i class="icon-large icon-vases"></i> <span class="network-name" style="margin-bottom:4px;white-space: normal;">ARTHIST - Art History</span> <span class="caret"></span></button>
-                    <ul class="dropdown-menu">
-                        <li><a target="_blank" href="reviews.html">ARTHIST 101: Art/Arch Prehistory To Renaiss</a></li>
-                        <li><a target="_blank" href="reviews.html">ARTHIST 102: Art/Arch Renaiss To Present</a></li>
-                        <li><a target="_blank" href="reviews.html">ARTHIST 103: Understanding Architecture</a></li>
-                        <li><a target="_blank" href="reviews.html">ARTHIST 190: Freshman Seminar: Art History</a></li>
-                        <li><a target="_blank" href="reviews.html">ARTHIST 210: Intro to Graphics and CAD</a></li>
-                        <li><a target="_blank" href="reviews.html">ARTHIST 213: Anc't Egypt Art 3000 - 1550,BC</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                    </ul>
-                </div>
-
-                <div class="btn-group">
-                    <button type="button" data-toggle="dropdown" class="btn btn-primary btn-lg dropdown-toggle"><i class="icon-large icon-camera"></i> <span class="network-name" style="margin-bottom:4px;white-space: normal;">ARTVIS - Visual Arts</span> <span class="caret"></span></button>
-                    <ul class="dropdown-menu">
-                        <li><a target="_blank" href="reviews.html">ARTVIS 105: Intro Drawing and Painting</a></li>
-                        <li><a target="_blank" href="reviews.html">ARTVIS 106: Photography I</a></li>
-                        <li><a target="_blank" href="reviews.html">ARTVIS 109: Intro Sculpture</a></li>
-                        <li><a target="_blank" href="reviews.html">ARTVIS 111: Foundations in Art Practices I</a></li>
-                        <li><a target="_blank" href="reviews.html">ARTVIS 112: Foundations in Art Practices II</a></li>
-                        <li><a target="_blank" href="reviews.html">ARTVIS 204: Introduction to Media Studies</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                    </ul>
-                </div>
-
-                <div class="btn-group">
-                    <button type="button" data-toggle="dropdown" class="btn btn-primary btn-lg dropdown-toggle"><i class="icon-large icon-fishes"></i> <span class="network-name" style="margin-bottom:4px;white-space: normal;">BIOL - Biology</span> <span class="caret"></span></button>
-                    <ul class="dropdown-menu">
-                        <li><a target="_blank" href="reviews.html">BIOL 141: Foundations of Modern Biology I</a></li>
-                        <li><a target="_blank" href="reviews.html">BIOL 142: Foundations of Modern Biology II</a></li>
-                        <li><a target="_blank" href="reviews.html">BIOL 205: Comparative Vertebrate Anatomy</a></li>
-                        <li><a target="_blank" href="reviews.html">BIOL 223: Developmental Biology</a></li>
-                        <li><a target="_blank" href="reviews.html">BIOL 240: Organismal Form and Function</a></li>
-                        <li><a target="_blank" href="reviews.html">BIOL 241: Evolutionary Biology</a></li>
-                        <li><a target="_blank" href="reviews.html">BIOL 247: Ecology</a></li>
-                        <li><a target="_blank" href="reviews.html">BIOL 250: Cell Biology</a></li>
-                        <li><a target="_blank" href="reviews.html">BIOL 264: Genetics: A Human Perspective</a></li>
-                        <li><a target="_blank" href="reviews.html">BIOL 301: Biochemistry I</a></li>
-                        <li><a target="_blank" href="reviews.html">BIOL 336: Human Physiology</a></li>
-                        <li><a target="_blank" href="reviews.html">BIOL 352: Epigenetics & Human Disease</a></li>
-                        <li><a target="_blank" href="reviews.html">BIOL 370: Introduction to Microbiology</a></li>
-                        <li><a target="_blank" href="reviews.html">BIOL 434: Physical Biology</a></li>
-                        <li><a target="_blank" href="reviews.html">BIOL 441: Molecular Biology & Evolutionary Genetics</a></li>
-                        <li><a target="_blank" href="reviews.html">BIOL 455: Immunology and Disease</a></li>
-                        <li><a target="_blank" href="reviews.html">BIOL 463: Population Biology & Evolution Of Disease</a></li>
-                        <li><a target="_blank" href="reviews.html">BIOL 475: Biology Of The Eye</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                    </ul>
-                </div>
-        </div>
-
-                            <li>
-                                <div class="btn-group btn-group-justified" role="group" aria-label="...">
-
-                                <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="icon-large icon-vases"></i> <span class="network-name">ARTHIST - Art History</span></a>
-=======
 <ul class="list-inline intro-social-buttons">
 =======
 -->
@@ -350,7 +195,6 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 <a href="#" class="btn btn-default btn-lg"><i class="icon-large icon-boat"></i> <span class="network-name">ANCMED - Ancient Mediterranean Studies</span></a>
 
 <a href="#" class="btn btn-default btn-lg"><i class="icon-large icon-conversation"></i> <span class="network-name">ANT - Anthropology</span></a>
->>>>>>> Stashed changes
 
 <a href="#" class="btn btn-default btn-lg"><i class="icon-large icon-globe"></i> <span class="network-name">ARAB - Arabic</span></a>
 </li>
@@ -458,18 +302,6 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 
     <a href="#" class="btn btn-default btn-lg"><i class="icon-large icon-globe"></i> <span class="network-name">LAT - Latin</span></a>
 
-<<<<<<< Updated upstream
-<!-- hey Roger what does this do below??
-                                <div id="MathE" class="panel-collapse collapse">
-                        <div class="panel-body"> 
--->
-
-                            </li>
-                            <li>
-                                <div class="btn-group btn-group-justified" role="group" aria-label="...">
-
-                                <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="icon-large icon-tea-kettle"></i> <span class="network-name">MESAS - Middle Eastern & S. Asian Studies</span></a>
-=======
     <a href="#" class="btn btn-default btn-lg"><i class="icon-large icon-chat"></i> <span class="network-name">LING - Linguistics</span></a>
 
     <a data-toggle="collapse" href="#math" class="btn btn-default btn-lg"><i class="icon-large icon-chat"></i> <span class="network-name">MATH - Mathematics</span></a>
@@ -486,7 +318,6 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     <a href="#" class="btn btn-default btn-lg"><i class="icon-large icon-tea-kettle"></i> <span class="network-name">MESAS - Middle Eastern & South Asian Studies</span></a>
 
     <a href="#" class="btn btn-default btn-lg"><i class="icon-large icon-music"></i> <span class="network-name">MUS - Music</span></a>
->>>>>>> Stashed changes
 
     <a href="#" class="btn btn-default btn-lg"><i class="icon-large icon-cloud"></i> <span class="network-name">NBB - Neuroscience & Behavioral Biology</span></a>
 </li>
