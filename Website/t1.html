@@ -1,0 +1,139 @@
+<html>
+<head>
+  <script src="https://cdn.firebase.com/js/client/2.2.1/firebase.js"></script>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'></script>
+  <link rel="stylesheet" type="text/css" href="/resources/tutorial/css/example.css">
+</head>
+<body>
+
+<!-- CHAT MARKUP -->
+<div class="example-chat l-demo-container">
+  <header>Review Demo</header>
+
+
+
+    
+  <div class='example-chat-toolbar'>
+    <label for="classnameInput">Class:</label>
+    <input type='text' id='classnameInput' placeholder='Enter classname'>
+  </div>
+    
+  <div class='example-chat-toolbar'>
+    <label for="profinput">Professor :</label>
+    <input type='text' id='profinput' placeholder='Enter Professor'>
+  </div>
+    
+    <h2>When Did you take it?</h2>
+
+
+    <select class="form-control" name="formsem" id="formsem" >
+      <option value="Fall">Fall</option>
+      <option value="Spring">Spring</option>
+      <option value="Summer">Summer</option>
+    </select>
+    
+    <select class="form-control" name="formyearid" id="formyearid">
+      <option value="2011">2011</option>
+      <option value="2012">2012</option>
+      <option value="2013">2013</option>
+      <option value="2014">2014</option>
+      <option value="2015">2015</option>
+    </select>
+    
+    
+  <ul id='example-messages' class="example-chat-messages"></ul>
+    
+    <input type='text' id='review'  placeholder='Enter a review...'>
+    
+    <input type="submit" id="submit" value="Submit">
+
+
+
+</div>
+
+<!-- CHAT JAVACRIPT -->
+<script>
+  // CREATE A REFERENCE TO FIREBASE
+  var messagesRef = new Firebase('https://reviewdata.firebaseio.com/');
+
+  // REGISTER DOM ELEMENTS
+  var messageField = $('#messageInput');
+  var nameField = $('#nameInput');
+  var messageList = $('#example-messages');
+
+   // REGISTER DOM ELEMENTS
+  var reviewField = $('#review');
+  var classnameField = $('#classnameInput');
+  var profinputField = $('#profinput');   
+  var yearField=$('#formyearid');
+  var semField=$('#formsem');
+    
+  // LISTEN FOR KEYPRESS EVENT
+  reviewField.keypress(function (e) {
+    if (e.keyCode == 13) {
+      //FIELD VALUES
+      var username = nameField.val();
+      var message = messageField.val();
+
+      var reviewText = reviewField.val();
+      var classname = classnameField.val();
+      var prof = profinputField.val();
+      var year = yearField.val();
+      var sem = semField.val();
+        
+        
+        
+        
+      //SAVE DATA TO FIREBASE AND EMPTY FIELD
+      //messagesRef.push({name:username, text:message});
+        messagesRef.push({Class:classname, Professor:prof, Year:year, Semester:sem, Review:reviewText});
+      messageField.val('');
+    }
+  });
+
+  // Add a callback that is triggered for each chat message.
+  messagesRef.limitToLast(10).on('child_added', function (snapshot) {
+    //GET DATA
+    var data = snapshot.val();
+    //var username = data.name || "anonymous";
+    //var message = data.text;
+     
+    var classname = data.Class;
+    var prof = data.Professor;
+    var reviewText = data.Review;
+    var year = data.Year;
+    var sem = data.Semester;
+      
+    //CREATE ELEMENTS MESSAGE & SANITIZE TEXT
+    var messageElement = $("<li>");
+    var nameElement = $("<strong class='example-chat-username'></strong>")
+     
+    var classElement = $("<strong class='example-chat-username'></strong>")
+    var profElement = $("<li>");
+    var yearElement = $("<li>");
+    var semElement = $("<li>");
+    var reviewElement = $("<li>");
+      
+    //nameElement.text(username);
+    //messageElement.text(message).prepend(nameElement);
+    
+    classElement.text(classname);
+    profElement.text(prof).prepend(classElement);
+    semElement.text(sem).prepend(profElement);
+    yearElement.text(year).prepend(semElement);
+    reviewElement.text(reviewText).prepend(yearElement);  
+    
+    //ADD MESSAGE
+    
+    messageList.append(reviewElement);
+    
+    
+                
+                
+    //SCROLL TO BOTTOM OF MESSAGE LIST
+    messageList[0].scrollTop = messageList[0].scrollHeight;
+ 
+  });
+</script>
+</body>
+</html>

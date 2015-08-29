@@ -1,0 +1,419 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <script src="https://cdn.firebase.com/js/client/2.2.1/firebase.js"></script>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'></script>
+  <link rel="stylesheet" type="text/css" href="/resources/tutorial/css/example.css">
+  <link rel="stylesheet" href="css/jquery.typeahead.css">
+<!-- AngularJS -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+
+<!-- Firebase -->
+<script src="https://cdn.firebase.com/js/client/2.2.2/firebase.js"></script>
+
+<!-- AngularFire -->
+<script src="https://cdn.firebase.com/libs/angularfire/1.0.0/angularfire.min.js"></script>
+    
+  <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+  <script src="js/jquery.typeahead.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery.typeahead.css">
+
+  <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+  <script src="js/jquery.typeahead.js"></script>
+  <script src="http://yourjavascript.com/54233514131/demo-reviews.js"></script> 
+    
+    <title>REVIEWS</title>
+    <link rel="icon" type="image/ico"
+     href="/images/favicon.ico"/>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.icon-large.min.css" rel="stylesheet">
+    <!-- hey Roger make sure to include the above line anytime you want to include a icon
+    Also this:
+    <ul class="list-inline intro-social-buttons">
+                            <li>
+                                <a href="#services" class="btn btn-default btn-lg"><i class="icon-large icon-search"></i> <span class="network-name">African American Studies</span></a>
+                            </li>
+                        </ul> -->
+
+    <!-- Custom CSS -->
+    <link href="css/landing-page.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+
+
+</head>
+ 
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand topnav" href="index.html">the unofficial guide to ORDER</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#aboutus">About Us</a>
+                    </li>
+                    <!-- for Roger just leaving this here:
+                    <li>
+                        <a href="GeneralClassesPage.html">Classes1</a>
+                    </li> -->
+                    <li>
+                        <a target="_blank" href="classes.html">Classes</a>
+                        <!-- adding this
+                        <a target="_blank" href=...
+                        will open up a new tab -->
+                    </li>
+                    <li>
+                        <a href="tila.html">TILA</a>
+                    </li>
+                    <li>
+                        <a href="#campusforum">Campus Forum</a>
+                    </li>
+                    <li>
+                        <a href="#classifieds">Classifieds</a>
+                    </li>
+                    <li>
+                        <a href="#funnies">Funnies</a>
+                    </li>
+                    <li>
+                        <a href="#food">Food</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- Header -->
+    <a name="hero"></a>
+    <div class="intro-header">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>Reviews</h1>
+                        <hr class="intro-divider">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.intro-header -->
+
+    <!-- Page Content -->
+
+  
+   
+    <!-- /.content-section-a -->
+
+    <a  name="campusforum"></a>
+    <!--for Roger for href use # but if name do not use # -->
+    
+    <!-- <div class="content-section-a">
+
+
+
+    <!-- /.content-section-a -->
+
+ <div class="content-section-a">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading"><a target="_blank" >Leave a review and Contribuite!</a></h2>
+                    <p class="lead">We want to foster a sense of community, and we can only do that with your help! Leave a couple  reviews so you can get full acces to entire database of reviews!</p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="img/buddy-christ.jpg" alt="">
+                </div>
+            </div>
+
+<!-- CHAT MARKUP -->
+<div class="example-chat l-demo-container">
+  <header>Review Demo</header>
+
+
+ <div class="typeahead-container">
+    <div class="input-group">
+
+      <span class="typeahead-query">
+        <input id="classnameInput"
+        class="form-control"
+        type="search"
+        placeholder="Enter Course Here!"
+        autocomplete="on">
+      </span>
+
+    </div>
+  </div>
+    
+<div class="typeahead-container">
+    <div class="input-group">
+
+      <span class="typeahead-query">
+        <input id="profinput"
+        class="form-control"
+        type="search"
+        placeholder="Enter Professor Name here!"
+        autocomplete="on">
+      </span>
+
+    </div>
+  </div>    
+  
+
+    <h2>When Did you take it?</h2>
+
+
+    <select class="form-control" name="formsem" id="formsem" >
+      <option value="Fall">Fall</option>
+      <option value="Spring">Spring</option>
+      <option value="Summer">Summer</option>
+    </select>
+    
+    <select class="form-control" name="formyearid" id="formyearid">
+      <option value="2011">2011</option>
+      <option value="2012">2012</option>
+      <option value="2013">2013</option>
+      <option value="2014">2014</option>
+      <option value="2015">2015</option>
+    </select>
+    
+    
+  <ul id='example-messages' class="example-chat-messages"></ul>
+    
+    <input type='text' id='review'  placeholder='Enter a review...'>
+    
+    <input type="submit" id="submit" value="Submit">
+
+    <div class="banner">
+
+
+        <!-- /.container -->
+
+    </div>
+    <!-- /.banner -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#aboutus">About</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#services">Services</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted small">Copyright &copy; Sakib & Roger. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+    </div>
+            </div>
+     </div>
+    
+
+<!-- CHAT JAVACRIPT -->
+<script>
+ 
+var catalog = {
+  courses: ["MATH111-Calculus I", "MATH112-Calculus II", "BIO141-Biology I", "BIO142-Biology II"],
+  professors: ["Fred Helenius", "Ken Ono", "James Nagy", "Vladmir Oliker", "Rachel Spell"]
+    
+};
+
+
+    
+
+
+        // CREATE A REFERENCE TO FIREBASE
+  var messagesRef = new Firebase('https://reviewdata.firebaseio.com/');
+
+  // REGISTER DOM ELEMENTS
+  var messageField = $('#messageInput');
+  var nameField = $('#nameInput');
+  var messageList = $('#example-messages');
+
+   // REGISTER DOM ELEMENTS
+  var reviewField = $('#review');
+  var classnameField = $('#classnameInput');
+  var profinputField = $('#profinput');   
+  var yearField=$('#formyearid');
+  var semField=$('#formsem');
+    
+  // LISTEN FOR KEYPRESS EVENT
+  reviewField.keypress(function (e) {
+    if (e.keyCode == 13) {
+      //FIELD VALUES
+      var username = nameField.val();
+      var message = messageField.val();
+
+      var reviewText = reviewField.val();
+      var classname = classnameField.val();
+      var prof = profinputField.val();
+      var year = yearField.val();
+      var sem = semField.val();
+        
+        
+        
+        
+      //SAVE DATA TO FIREBASE AND EMPTY FIELD
+      //messagesRef.push({name:username, text:message});
+        messagesRef.push({Class:classname, Professor:prof, Year:year, Semester:sem, Review:reviewText});
+      messageField.val('');
+        alert("AWWWWW YEAHHHH, YOU JUST PLACED A REVIEW");
+    }
+  });
+
+  // Add a callback that is triggered for each chat message.
+  messagesRef.limitToLast(10).on('child_added', function (snapshot) {
+    //GET DATA
+    var data = snapshot.val();
+    //var username = data.name || "anonymous";
+    //var message = data.text;
+     
+    var classname = data.Class;
+    var prof = data.Professor;
+    var reviewText = data.Review;
+    var year = data.Year;
+    var sem = data.Semester;
+      
+    //CREATE ELEMENTS MESSAGE & SANITIZE TEXT
+    var messageElement = $("<li>");
+    var nameElement = $("<strong class='example-chat-username'></strong>")
+     
+    var classElement = $("<strong class='example-chat-username'></strong>")
+    var profElement = $("<li>");
+    var yearElement = $("<li>");
+    var semElement = $("<li>");
+    var reviewElement = $("<li>");
+      
+    //nameElement.text(username);
+    //messageElement.text(message).prepend(nameElement);
+    
+    classElement.text(classname+": ");
+    profElement.text(prof).prepend(classElement);
+    semElement.text(sem+" " +year).prepend(profElement);
+    //yearElement.text(year).prepend(semElement);
+    reviewElement.text(reviewText).prepend(semElement);  
+    
+    //ADD MESSAGE
+    
+    messageList.append(reviewElement);
+    
+    
+                
+                
+    //SCROLL TO BOTTOM OF MESSAGE LIST
+    messageList[0].scrollTop = messageList[0].scrollHeight;
+ 
+  });
+    
+
+</script>
+
+<script>
+ 
+$('#classnameInput').typeahead({
+  minLength: 1,
+  order: "asc",
+  group: true,
+  groupMaxItem: 5,
+  hint: true,
+  selector: {
+    filter: "input-group-btn",
+    filterButton: "btn btn-default",
+    dropdown: "dropdown-menu dropdown-menu-right",
+    list: "dropdown-menu",
+    hint: "form-control"
+  },
+  source: {
+    courses: {
+      data: catalog.courses
+    }
+  },
+  debug: true
+});   
+$('#profinput').typeahead({
+  minLength: 1,
+  order: "asc",
+  group: true,
+  groupMaxItem: 5,
+  hint: true,
+  selector: {
+    filter: "input-group-btn",
+    filterButton: "btn btn-default",
+    dropdown: "dropdown-menu dropdown-menu-right",
+    list: "dropdown-menu",
+    hint: "form-control"
+  },
+  source: {
+    professors: {
+      data: catalog.professors
+    }
+  },
+  debug: true
+});    
+    
+</script>
+    
+   
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+<script src="js/collapse.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="js/app.js"></script>
+ 
+</body>
+</html>

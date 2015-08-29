@@ -1,27 +1,26 @@
-This project was designed by Roger Tieu and Sakib Alam for ORDER 500. 
+# [Start Bootstrap](http://startbootstrap.com/) - [Landing Page](http://startbootstrap.com/template-overviews/landing-page/)
 
+[Landing Page](http://startbootstrap.com/template-overviews/landing-page/) is a multipurpose landing page template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
 
-Purpose: xxx
+## Getting Started
 
-Functionality:
+To use this template, choose one of the following options to get started:
+* Download the latest release on Start Bootstrap
+* Fork this repository on GitHub
 
+## Bugs and Issues
 
+Have a bug or an issue with this template? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-landing-page/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/landing-page/).
 
-LOG
+## Creator
 
-03/8/15
--Added buttons to Classes Page
--Current Status: Main page (Index) loaded, can go to the Classes page, view all departments, no classes yet
+Start Bootstrap was created by and is maintained by **David Miller**, Managing Parter at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
 
-03/10/15
--Added drop down function to buttons in Classes page
--Current Status: Main page loaded, can go to a class page, which is filled with all classes
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
 
-03/11/15
--Added Reviews page
--Current Status: Main page (Index) loaded, can go to the Classes page, view all departments with classes that can link to the Reviews page
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
-Future:
--How should reviews be set up?
--Think about databases
--Any other features?
+## Copyright and License
+
+Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-landing-page/blob/gh-pages/LICENSE) license.

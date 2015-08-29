@@ -52,7 +52,13 @@ h6 {
 }
 
 .intro-divider {
-    width: 1200px;
+    width: 1000px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.article-divider {
+    width: 1000px;
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
